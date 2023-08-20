@@ -13,6 +13,7 @@ import UpdatePlace from "./places/pages/UpdatePlace";
 import Auth from "./user/pages/Auth";
 import { AuthContext } from "./shared/context/auth-context";
 import { useAuth } from "./shared/hooks/auth-hook";
+import videoSrc from "./inkForBac.mp4";
 // import LoadingSpinner from "./shared/components/UIElements/LoadingSpinner";
 
 // const Users = React.lazy(() => import("./user/pages/Users"));
@@ -71,13 +72,19 @@ const App = () => {
         logout: logout,
       }}
     >
-      <Router>
-        <MainNavigation />
-        <main>
-          {/* <Suspense fallback={<LoadingSpinner />}>{routes}</Suspense> */}
-          {routes}
-        </main>
-      </Router>
+      <div>
+        <video className="video-background" autoPlay loop muted>
+          <source src={videoSrc} type="video/mp4"></source>
+        </video>
+
+        <Router>
+          <MainNavigation />
+          <main>
+            {/* <Suspense fallback={<LoadingSpinner />}>{routes}</Suspense> */}
+            {routes}
+          </main>
+        </Router>
+      </div>
     </AuthContext.Provider>
   );
 };
