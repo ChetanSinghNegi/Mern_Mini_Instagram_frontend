@@ -1,21 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8255e62a.chunk.css",
-    "main.js": "/static/js/main.cdfb219c.chunk.js",
-    "main.js.map": "/static/js/main.cdfb219c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.92d67ae5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.92d67ae5.js.map",
-    "static/js/2.7337068b.chunk.js": "/static/js/2.7337068b.chunk.js",
-    "static/js/2.7337068b.chunk.js.map": "/static/js/2.7337068b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ceed013659150d508c1b12e5f5da74f6.js": "/precache-manifest.ceed013659150d508c1b12e5f5da74f6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.8255e62a.chunk.css.map": "/static/css/main.8255e62a.chunk.css.map"
+    "main.css": "/Mern_Mini_Instagram_frontend/static/css/main.6883e6ba.css",
+    "main.js": "/Mern_Mini_Instagram_frontend/static/js/main.f3611d6f.js",
+    "static/media/inkForBac.mp4": "/Mern_Mini_Instagram_frontend/static/media/inkForBac.d8adcb699d71865c3673.mp4",
+    "static/media/bgCrop.jpg": "/Mern_Mini_Instagram_frontend/static/media/bgCrop.fc7d0aaa8aeb0ce7fe50.jpg",
+    "index.html": "/Mern_Mini_Instagram_frontend/index.html",
+    "main.6883e6ba.css.map": "/Mern_Mini_Instagram_frontend/static/css/main.6883e6ba.css.map",
+    "main.f3611d6f.js.map": "/Mern_Mini_Instagram_frontend/static/js/main.f3611d6f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.92d67ae5.js",
-    "static/js/2.7337068b.chunk.js",
-    "static/css/main.8255e62a.chunk.css",
-    "static/js/main.cdfb219c.chunk.js"
+    "static/css/main.6883e6ba.css",
+    "static/js/main.f3611d6f.js"
   ]
 }
